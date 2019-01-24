@@ -1,0 +1,12 @@
+body {
+  padding: 5vh;
+}
+
+.row {
+  padding: 2vh;
+}
+
+.card-body {
+  color: white;
+  background-color: red;
+}
