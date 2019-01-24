@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-	<title>SET THE TITLE!!!</title>
-	<!--Might be good to link bootstrap here-->
+	<title>JAN KEN PON</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 	<!--write html below this line-->
-	
-	
+
+	<div class="row">
+		<div class="col offset-2">
+			<button type="button" class="btn btn-outline-info" onclick="play('rock')"> ROCK</button>
+		</div>
+		<div class="col">
+			<button type="button" class="btn btn-success" onclick=" play('paper')"> PAPER</button>
+		</div>
+		<div class="col"><button type="button" class="btn btn-dark" onclick="play('scissors')"> SCISSORS</button>
+		</div>
+	</div>
+
+
 	<!--write html above this line-->
 	<!--the following line is used to link your javascript file.-->
 	<script src="app.js"></script>
 </body>
+
 </html>
